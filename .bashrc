@@ -22,6 +22,7 @@ alias grep='grep --color=auto'
 eval "$(thefuck --alias)"
 PS1='[\u@\h \W]\$ '
 alias gs='config status'
+alias gsa="config status | grep '^	modified:' | awk '{print \$2}'"
 alias gc='config commit'
 alias gp='config push'
 alias hyprconf='micro ~/.config/hypr/hyprland.conf'
