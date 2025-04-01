@@ -1,9 +1,9 @@
 game:
   arch: auto
-  exe: /mnt/f02b6907-cd4d-4cfe-98fc-1f16f4a889fa/@home/belial/Games/DNF Duel/DNF Duel
+  exe: /mnt/sdd2/@home/belial/Games/DNF Duel/DNF Duel
     Nen Master/DNFDUEL.exe
-  prefix: /mnt/f02b6907-cd4d-4cfe-98fc-1f16f4a889fa/@home/belial/dnf-wine
-  working_dir: /mnt/f02b6907-cd4d-4cfe-98fc-1f16f4a889fa/@home/belial/Games/DNF Duel/DNF
+  prefix: /mnt/sdd2/@home/belial/dnf-wine
+  working_dir: /mnt/sdd2/@home/belial/Games/DNF Duel/DNF
     Duel Nen Master
 system:
   disable_runtime: false

@@ -2,8 +2,8 @@
 
 # Configuration
 INTERFACE="enp0s26u1u2"  # Replace with your network interface
-SPEED_THRESHOLD_LOW=3072     # Below 3072 KiB/s (blue)
-SPEED_THRESHOLD_MEDIUM=8192  # Between 3072 and 8192 KiB/s (yellow)
+SPEED_THRESHOLD_LOW=3000     # Below 3000 KB/s (blue)
+SPEED_THRESHOLD_MEDIUM=8000  # Between 3000 and 8000 KB/s (yellow)
 
 # Get current RX/TX bytes
 RX=$(cat /sys/class/net/$INTERFACE/statistics/rx_bytes)
@@ -18,14 +18,14 @@ else
     OLD_TX=$TX
 fi
 
-# Calculate speed in KiB/s
+# Calculate speed in KB/s
 SLEEP_INTERVAL=1
 sleep $SLEEP_INTERVAL
 NEW_RX=$(cat /sys/class/net/$INTERFACE/statistics/rx_bytes)
 NEW_TX=$(cat /sys/class/net/$INTERFACE/statistics/tx_bytes)
 
-DOWN_SPEED=$(( (NEW_RX - OLD_RX) / SLEEP_INTERVAL / 1024 ))  # Convert to KiB/s
-UP_SPEED=$(( (NEW_TX - OLD_TX) / SLEEP_INTERVAL / 1024 ))   # Convert to KiB/s
+DOWN_SPEED=$(( (NEW_RX - OLD_RX) / SLEEP_INTERVAL / 1000 ))  # Convert to KB/s
+UP_SPEED=$(( (NEW_TX - OLD_TX) / SLEEP_INTERVAL / 1000 ))   # Convert to KB/s
 
 # Save new values for the next run
 echo "$NEW_RX $NEW_TX" > "$TEMP_FILE"
