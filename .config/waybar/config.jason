@@ -47,7 +47,7 @@
 
     "disk": {
         "interval": 30,
-        "format": "<span color='#6767B9'></span> {percentage_used}%",
+        "format": "<span color='#6767B9'></span>  {percentage_used}%",
         "path": "/",
         "tooltip": true,
         "tooltip-format": "HDD - {used} used out of {total} on {path} ({percentage_used}%)",
@@ -234,3 +234,5 @@
                  
                             } 
 }
+
+
