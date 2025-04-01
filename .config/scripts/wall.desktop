@@ -1,0 +1,5 @@
+[Dekstop Entry]
+Type=Application
+Name=wallpaper
+Exec=/home/baiken80/dotfiles/scripts/updatewal-swww.sh
+terminal=false

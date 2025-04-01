@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/baiken80/wallpaper/wallpaper/45ro67.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#000000",
+        "foreground": "#afdfe5",
+        "cursor": "#afdfe5"
+    },
+    "colors": {
+        "color0": "#000000",
+        "color1": "#366F8C",
+        "color2": "#4B7789",
+        "color3": "#457EA2",
+        "color4": "#538896",
+        "color5": "#5D9EAC",
+        "color6": "#58AEC5",
+        "color7": "#afdfe5",
+        "color8": "#7a9ca0",
+        "color9": "#366F8C",
+        "color10": "#4B7789",
+        "color11": "#457EA2",
+        "color12": "#538896",
+        "color13": "#5D9EAC",
+        "color14": "#58AEC5",
+        "color15": "#afdfe5"
+    }
+}

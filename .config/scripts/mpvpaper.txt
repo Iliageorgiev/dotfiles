@@ -1,0 +1,1 @@
+mpvpaper -o "--loop --no-ytdl --vo=libmpv --fs  --no-video-sync --no-keepaspect" "*" 1new.mp4 

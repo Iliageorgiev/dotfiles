@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/baiken80/wallpaper/wallpaper/Guilty Crown 9.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0f0d19",
+        "foreground": "#dbd2d5",
+        "cursor": "#dbd2d5"
+    },
+    "colors": {
+        "color0": "#0f0d19",
+        "color1": "#BB463B",
+        "color2": "#2A45A7",
+        "color3": "#6D6792",
+        "color4": "#A96C98",
+        "color5": "#918E8A",
+        "color6": "#9F99AD",
+        "color7": "#dbd2d5",
+        "color8": "#999395",
+        "color9": "#BB463B",
+        "color10": "#2A45A7",
+        "color11": "#6D6792",
+        "color12": "#A96C98",
+        "color13": "#918E8A",
+        "color14": "#9F99AD",
+        "color15": "#dbd2d5"
+    }
+}

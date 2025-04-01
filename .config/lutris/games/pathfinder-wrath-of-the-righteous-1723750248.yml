@@ -1,0 +1,14 @@
+game:
+  exe: /mnt/f02b6907-cd4d-4cfe-98fc-1f16f4a889fa/@home/belial/Downloads/Pathfinder_Wrath_of_The_Righteous_2.3.3k_(74774)_win_gog/Pathfinder
+    WotR/drive_c/GOG Games/Pathfinder Wrath of the Righteous/Wrath.exe
+  prefix: /mnt/f02b6907-cd4d-4cfe-98fc-1f16f4a889fa/@home/belial/Downloads/Pathfinder_Wrath_of_The_Righteous_2.3.3k_(74774)_win_gog/Pathfinder
+    WotR
+  working_dir: /mnt/f02b6907-cd4d-4cfe-98fc-1f16f4a889fa/@home/belial/Downloads/Pathfinder_Wrath_of_The_Righteous_2.3.3k_(74774)_win_gog/Pathfinder
+    WotR/drive_c/GOG Games/Pathfinder Wrath of the Righteous
+system:
+  gamescope: false
+  gamescope_window_mode: -b
+  resolution: 1920x1080
+  sdl_video_fullscreen: '0'
+wine:
+  version: wine-tkg-valve-exp-bleeding-9.0.112626.20240815-327-x86_64.pkg

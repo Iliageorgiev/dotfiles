@@ -1,0 +1,7 @@
+game:
+  appid: '49520'
+system:
+  disable_runtime: true
+  gamemode: true
+  locale: ''
+  prefer_system_libs: false

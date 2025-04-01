@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/baiken80/wallpaper/wallpaper/Breach and Clear [Girls  Frontline].jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0d0d0d",
+        "foreground": "#e0dad1",
+        "cursor": "#e0dad1"
+    },
+    "colors": {
+        "color0": "#0d0d0d",
+        "color1": "#4E504D",
+        "color2": "#67625D",
+        "color3": "#6E706E",
+        "color4": "#827F79",
+        "color5": "#A19E97",
+        "color6": "#C8B8A3",
+        "color7": "#e0dad1",
+        "color8": "#9c9892",
+        "color9": "#4E504D",
+        "color10": "#67625D",
+        "color11": "#6E706E",
+        "color12": "#827F79",
+        "color13": "#A19E97",
+        "color14": "#C8B8A3",
+        "color15": "#e0dad1"
+    }
+}

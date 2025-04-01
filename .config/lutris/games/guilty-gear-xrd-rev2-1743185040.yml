@@ -1,0 +1,8 @@
+game:
+  exe: /mnt/sdd2/@home/belial/Downloads/GUILTY GEAR Xrd -REVELATOR- v2.10b Hot-Fix
+    + 12 DLC (Build 2599315) [Steam-Rip]/GUILTY GEAR Xrd -REVELATOR-/BootGGXrd.bat
+  prefix: /mnt/sdd2/@home/belial/Downloads/ggxrdprefix
+  working_dir: /mnt/sdd2/@home/belial/Downloads/GUILTY GEAR Xrd -REVELATOR- v2.10b
+    Hot-Fix + 12 DLC (Build 2599315) [Steam-Rip]/GUILTY GEAR Xrd -REVELATOR-
+wine:
+  version: wine-ge-8-25-x86_64

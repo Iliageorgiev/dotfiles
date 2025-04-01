@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/baiken80/wallpaper/wallpaper/oxm7vp.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0a060d",
+        "foreground": "#ebccc3",
+        "cursor": "#ebccc3"
+    },
+    "colors": {
+        "color0": "#0a060d",
+        "color1": "#E35A68",
+        "color2": "#EE936C",
+        "color3": "#4F7187",
+        "color4": "#BF6792",
+        "color5": "#56A8C0",
+        "color6": "#5FEAF6",
+        "color7": "#ebccc3",
+        "color8": "#a48e88",
+        "color9": "#E35A68",
+        "color10": "#EE936C",
+        "color11": "#4F7187",
+        "color12": "#BF6792",
+        "color13": "#56A8C0",
+        "color14": "#5FEAF6",
+        "color15": "#ebccc3"
+    }
+}

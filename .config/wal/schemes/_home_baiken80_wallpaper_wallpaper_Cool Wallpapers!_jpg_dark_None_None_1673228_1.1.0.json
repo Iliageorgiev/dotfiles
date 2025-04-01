@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/baiken80/wallpaper/wallpaper/Cool Wallpapers!.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#060708",
+        "foreground": "#f2eee0",
+        "cursor": "#f2eee0"
+    },
+    "colors": {
+        "color0": "#060708",
+        "color1": "#A3643B",
+        "color2": "#5F8C35",
+        "color3": "#B99A66",
+        "color4": "#AAA691",
+        "color5": "#CDB798",
+        "color6": "#E4D2AB",
+        "color7": "#f2eee0",
+        "color8": "#a9a69c",
+        "color9": "#A3643B",
+        "color10": "#5F8C35",
+        "color11": "#B99A66",
+        "color12": "#AAA691",
+        "color13": "#CDB798",
+        "color14": "#E4D2AB",
+        "color15": "#f2eee0"
+    }
+}

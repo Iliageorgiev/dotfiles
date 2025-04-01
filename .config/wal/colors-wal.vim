@@ -1,0 +1,23 @@
+" Special
+let wallpaper  = "/home/baiken80/wallpaper/wallpaper/103.jpg"
+let background = "#0E1D20"
+let foreground = "#dcdacf"
+let cursor     = "#dcdacf"
+
+" Colors
+let color0  = "#0E1D20"
+let color1  = "#8E745A"
+let color2  = "#668670"
+let color3  = "#9F956A"
+let color4  = "#2A7D82"
+let color5  = "#59958E"
+let color6  = "#9FAA9A"
+let color7  = "#dcdacf"
+let color8  = "#9a9890"
+let color9  = "#8E745A"
+let color10 = "#668670"
+let color11 = "#9F956A"
+let color12 = "#2A7D82"
+let color13 = "#59958E"
+let color14 = "#9FAA9A"
+let color15 = "#dcdacf"

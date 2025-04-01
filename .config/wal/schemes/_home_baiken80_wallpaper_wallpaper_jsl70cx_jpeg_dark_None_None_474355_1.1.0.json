@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/baiken80/wallpaper/wallpaper/jsl70cx.jpeg",
+    "alpha": "100",
+    "special": {
+        "background": "#19120d",
+        "foreground": "#e6e3de",
+        "cursor": "#e6e3de"
+    },
+    "colors": {
+        "color0": "#19120d",
+        "color1": "#C7A377",
+        "color2": "#999187",
+        "color3": "#AFA79E",
+        "color4": "#C8B8A9",
+        "color5": "#BFC3BE",
+        "color6": "#D2C6B8",
+        "color7": "#e6e3de",
+        "color8": "#a19e9b",
+        "color9": "#C7A377",
+        "color10": "#999187",
+        "color11": "#AFA79E",
+        "color12": "#C8B8A9",
+        "color13": "#BFC3BE",
+        "color14": "#D2C6B8",
+        "color15": "#e6e3de"
+    }
+}

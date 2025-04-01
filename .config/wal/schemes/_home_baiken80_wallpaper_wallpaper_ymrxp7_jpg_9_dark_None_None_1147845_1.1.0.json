@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/baiken80/wallpaper/wallpaper/ymrxp7.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#020405",
+        "foreground": "#bfc0c0",
+        "cursor": "#bfc0c0"
+    },
+    "colors": {
+        "color0": "#020405",
+        "color1": "#51504C",
+        "color2": "#62605C",
+        "color3": "#70716F",
+        "color4": "#A48A53",
+        "color5": "#7A7E81",
+        "color6": "#7D8185",
+        "color7": "#bfc0c0",
+        "color8": "#414243",
+        "color9": "#51504C",
+        "color10": "#62605C",
+        "color11": "#70716F",
+        "color12": "#A48A53",
+        "color13": "#7A7E81",
+        "color14": "#7D8185",
+        "color15": "#bfc0c0"
+    }
+}

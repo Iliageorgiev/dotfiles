@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/baiken80/wallpaper/wallpaper/143265-widescreen-awesome-anime-wallpapers-1920x1200.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0a0807",
+        "foreground": "#d3e2d7",
+        "cursor": "#d3e2d7"
+    },
+    "colors": {
+        "color0": "#0a0807",
+        "color1": "#8D6B71",
+        "color2": "#748C6D",
+        "color3": "#8A9377",
+        "color4": "#919B90",
+        "color5": "#B0D0A9",
+        "color6": "#C7E4B3",
+        "color7": "#d3e2d7",
+        "color8": "#939e96",
+        "color9": "#8D6B71",
+        "color10": "#748C6D",
+        "color11": "#8A9377",
+        "color12": "#919B90",
+        "color13": "#B0D0A9",
+        "color14": "#C7E4B3",
+        "color15": "#d3e2d7"
+    }
+}

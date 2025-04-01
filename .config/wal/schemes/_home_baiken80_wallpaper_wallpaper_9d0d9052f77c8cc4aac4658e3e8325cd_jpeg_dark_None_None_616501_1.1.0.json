@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/baiken80/wallpaper/wallpaper/9d0d9052f77c8cc4aac4658e3e8325cd.jpeg",
+    "alpha": "100",
+    "special": {
+        "background": "#0C0F10",
+        "foreground": "#e1dfde",
+        "cursor": "#e1dfde"
+    },
+    "colors": {
+        "color0": "#0C0F10",
+        "color1": "#90837C",
+        "color2": "#63888E",
+        "color3": "#958E8A",
+        "color4": "#B0A49F",
+        "color5": "#C6B4AC",
+        "color6": "#C8C2BD",
+        "color7": "#e1dfde",
+        "color8": "#9d9c9b",
+        "color9": "#90837C",
+        "color10": "#63888E",
+        "color11": "#958E8A",
+        "color12": "#B0A49F",
+        "color13": "#C6B4AC",
+        "color14": "#C8C2BD",
+        "color15": "#e1dfde"
+    }
+}

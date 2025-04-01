@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/baiken80/wallpaper/wallpaper/the-king-of-fighters-30065-1920x1080.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0B090A",
+        "foreground": "#e2e2e3",
+        "cursor": "#e2e2e3"
+    },
+    "colors": {
+        "color0": "#0B090A",
+        "color1": "#C99273",
+        "color2": "#5EA3AD",
+        "color3": "#AAA1A2",
+        "color4": "#D7AC98",
+        "color5": "#E2D0AC",
+        "color6": "#ACC7D4",
+        "color7": "#e2e2e3",
+        "color8": "#9e9e9e",
+        "color9": "#C99273",
+        "color10": "#5EA3AD",
+        "color11": "#AAA1A2",
+        "color12": "#D7AC98",
+        "color13": "#E2D0AC",
+        "color14": "#ACC7D4",
+        "color15": "#e2e2e3"
+    }
+}

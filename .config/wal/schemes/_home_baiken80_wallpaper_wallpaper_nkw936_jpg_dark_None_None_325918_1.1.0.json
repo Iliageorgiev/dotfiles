@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/baiken80/wallpaper/wallpaper/nkw936.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0a090d",
+        "foreground": "#afb4bd",
+        "cursor": "#afb4bd"
+    },
+    "colors": {
+        "color0": "#0a090d",
+        "color1": "#303545",
+        "color2": "#594140",
+        "color3": "#635250",
+        "color4": "#974B34",
+        "color5": "#996856",
+        "color6": "#B88F71",
+        "color7": "#afb4bd",
+        "color8": "#7a7d84",
+        "color9": "#303545",
+        "color10": "#594140",
+        "color11": "#635250",
+        "color12": "#974B34",
+        "color13": "#996856",
+        "color14": "#B88F71",
+        "color15": "#afb4bd"
+    }
+}

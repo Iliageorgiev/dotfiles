@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/baiken80/wallpaper/wallpaper/45djq1.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#000000",
+        "foreground": "#bfbfbf",
+        "cursor": "#bfbfbf"
+    },
+    "colors": {
+        "color0": "#000000",
+        "color1": "#353535",
+        "color2": "#3A3A3A",
+        "color3": "#4B4B4B",
+        "color4": "#535353",
+        "color5": "#5D5D5D",
+        "color6": "#636363",
+        "color7": "#bfbfbf",
+        "color8": "#3f3f3f",
+        "color9": "#353535",
+        "color10": "#3A3A3A",
+        "color11": "#4B4B4B",
+        "color12": "#535353",
+        "color13": "#5D5D5D",
+        "color14": "#636363",
+        "color15": "#bfbfbf"
+    }
+}

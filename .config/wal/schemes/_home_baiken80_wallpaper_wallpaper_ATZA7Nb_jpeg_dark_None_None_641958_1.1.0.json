@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/baiken80/wallpaper/wallpaper/ATZA7Nb.jpeg",
+    "alpha": "100",
+    "special": {
+        "background": "#0b0809",
+        "foreground": "#f5ddcd",
+        "cursor": "#f5ddcd"
+    },
+    "colors": {
+        "color0": "#0b0809",
+        "color1": "#CC3123",
+        "color2": "#CE5841",
+        "color3": "#F2AB5C",
+        "color4": "#9D7D82",
+        "color5": "#B5948F",
+        "color6": "#F5AD94",
+        "color7": "#f5ddcd",
+        "color8": "#ab9a8f",
+        "color9": "#CC3123",
+        "color10": "#CE5841",
+        "color11": "#F2AB5C",
+        "color12": "#9D7D82",
+        "color13": "#B5948F",
+        "color14": "#F5AD94",
+        "color15": "#f5ddcd"
+    }
+}

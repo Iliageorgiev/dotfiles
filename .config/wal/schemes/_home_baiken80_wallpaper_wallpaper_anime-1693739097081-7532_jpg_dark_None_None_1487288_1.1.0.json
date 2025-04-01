@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/baiken80/wallpaper/wallpaper/anime-1693739097081-7532.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#060A0E",
+        "foreground": "#e1ebef",
+        "cursor": "#e1ebef"
+    },
+    "colors": {
+        "color0": "#060A0E",
+        "color1": "#6D90AB",
+        "color2": "#6EA5D0",
+        "color3": "#97ACB0",
+        "color4": "#92B1D3",
+        "color5": "#A9D3E5",
+        "color6": "#CCDAE5",
+        "color7": "#e1ebef",
+        "color8": "#9da4a7",
+        "color9": "#6D90AB",
+        "color10": "#6EA5D0",
+        "color11": "#97ACB0",
+        "color12": "#92B1D3",
+        "color13": "#A9D3E5",
+        "color14": "#CCDAE5",
+        "color15": "#e1ebef"
+    }
+}

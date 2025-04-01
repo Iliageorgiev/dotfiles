@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/baiken80/wallpaper/wallpaper/zm95qj.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0B0D0A",
+        "foreground": "#c1cbcc",
+        "cursor": "#c1cbcc"
+    },
+    "colors": {
+        "color0": "#0B0D0A",
+        "color1": "#34474D",
+        "color2": "#31526B",
+        "color3": "#595C5C",
+        "color4": "#916768",
+        "color5": "#56738B",
+        "color6": "#6F8FA0",
+        "color7": "#c1cbcc",
+        "color8": "#878e8e",
+        "color9": "#34474D",
+        "color10": "#31526B",
+        "color11": "#595C5C",
+        "color12": "#916768",
+        "color13": "#56738B",
+        "color14": "#6F8FA0",
+        "color15": "#c1cbcc"
+    }
+}

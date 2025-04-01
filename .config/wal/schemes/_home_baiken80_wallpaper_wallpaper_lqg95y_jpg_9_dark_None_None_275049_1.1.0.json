@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/baiken80/wallpaper/wallpaper/lqg95y.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#050607",
+        "foreground": "#c0c0c1",
+        "cursor": "#c0c0c1"
+    },
+    "colors": {
+        "color0": "#050607",
+        "color1": "#737985",
+        "color2": "#887D83",
+        "color3": "#79838F",
+        "color4": "#8B8B92",
+        "color5": "#ACA1A2",
+        "color6": "#D3AFA0",
+        "color7": "#c0c0c1",
+        "color8": "#434445",
+        "color9": "#737985",
+        "color10": "#887D83",
+        "color11": "#79838F",
+        "color12": "#8B8B92",
+        "color13": "#ACA1A2",
+        "color14": "#D3AFA0",
+        "color15": "#c0c0c1"
+    }
+}

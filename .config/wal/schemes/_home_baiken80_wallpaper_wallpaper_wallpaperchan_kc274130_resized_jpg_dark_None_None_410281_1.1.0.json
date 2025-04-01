@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/baiken80/wallpaper/wallpaper/wallpaperchan_kc274130_resized.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0a0b0c",
+        "foreground": "#c0bfbd",
+        "cursor": "#c0bfbd"
+    },
+    "colors": {
+        "color0": "#0a0b0c",
+        "color1": "#394667",
+        "color2": "#475055",
+        "color3": "#59666C",
+        "color4": "#837C79",
+        "color5": "#88837D",
+        "color6": "#778284",
+        "color7": "#c0bfbd",
+        "color8": "#868584",
+        "color9": "#394667",
+        "color10": "#475055",
+        "color11": "#59666C",
+        "color12": "#837C79",
+        "color13": "#88837D",
+        "color14": "#778284",
+        "color15": "#c0bfbd"
+    }
+}

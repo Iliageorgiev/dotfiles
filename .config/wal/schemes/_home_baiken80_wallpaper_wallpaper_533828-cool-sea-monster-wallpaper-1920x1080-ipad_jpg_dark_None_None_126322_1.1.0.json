@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/baiken80/wallpaper/wallpaper/533828-cool-sea-monster-wallpaper-1920x1080-ipad.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#030506",
+        "foreground": "#c9e7e3",
+        "cursor": "#c9e7e3"
+    },
+    "colors": {
+        "color0": "#030506",
+        "color1": "#225A63",
+        "color2": "#4C6C68",
+        "color3": "#497E7D",
+        "color4": "#679C98",
+        "color5": "#6EC2BF",
+        "color6": "#8FBCB0",
+        "color7": "#c9e7e3",
+        "color8": "#8ca19e",
+        "color9": "#225A63",
+        "color10": "#4C6C68",
+        "color11": "#497E7D",
+        "color12": "#679C98",
+        "color13": "#6EC2BF",
+        "color14": "#8FBCB0",
+        "color15": "#c9e7e3"
+    }
+}

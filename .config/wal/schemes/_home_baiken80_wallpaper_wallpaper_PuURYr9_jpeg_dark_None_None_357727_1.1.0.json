@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/baiken80/wallpaper/wallpaper/PuURYr9.jpeg",
+    "alpha": "100",
+    "special": {
+        "background": "#040105",
+        "foreground": "#e8dfe2",
+        "cursor": "#e8dfe2"
+    },
+    "colors": {
+        "color0": "#040105",
+        "color1": "#AF6C7B",
+        "color2": "#CA6967",
+        "color3": "#A16894",
+        "color4": "#CC728E",
+        "color5": "#D39CA5",
+        "color6": "#C9A1B8",
+        "color7": "#e8dfe2",
+        "color8": "#a29c9e",
+        "color9": "#AF6C7B",
+        "color10": "#CA6967",
+        "color11": "#A16894",
+        "color12": "#CC728E",
+        "color13": "#D39CA5",
+        "color14": "#C9A1B8",
+        "color15": "#e8dfe2"
+    }
+}

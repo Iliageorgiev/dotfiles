@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/baiken80/wallpaper/wallpaper/225273-best-awesome-anime-wallpapers-1920x1080-for-mobile.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#010102",
+        "foreground": "#eadee1",
+        "cursor": "#eadee1"
+    },
+    "colors": {
+        "color0": "#010102",
+        "color1": "#7B7283",
+        "color2": "#BD7398",
+        "color3": "#A997A3",
+        "color4": "#D79AAE",
+        "color5": "#C1B6C2",
+        "color6": "#D6B8C8",
+        "color7": "#eadee1",
+        "color8": "#a39b9d",
+        "color9": "#7B7283",
+        "color10": "#BD7398",
+        "color11": "#A997A3",
+        "color12": "#D79AAE",
+        "color13": "#C1B6C2",
+        "color14": "#D6B8C8",
+        "color15": "#eadee1"
+    }
+}

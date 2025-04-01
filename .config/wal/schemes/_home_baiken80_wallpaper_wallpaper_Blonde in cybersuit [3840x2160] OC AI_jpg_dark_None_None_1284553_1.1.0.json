@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/baiken80/wallpaper/wallpaper/Blonde in cybersuit [3840x2160] OC AI.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#28201b",
+        "foreground": "#e6e6e6",
+        "cursor": "#e6e6e6"
+    },
+    "colors": {
+        "color0": "#28201b",
+        "color1": "#A59A8F",
+        "color2": "#B6B2AD",
+        "color3": "#C5B8AD",
+        "color4": "#CAC3BB",
+        "color5": "#BBBFC2",
+        "color6": "#D6D6D7",
+        "color7": "#e6e6e6",
+        "color8": "#a1a1a1",
+        "color9": "#A59A8F",
+        "color10": "#B6B2AD",
+        "color11": "#C5B8AD",
+        "color12": "#CAC3BB",
+        "color13": "#BBBFC2",
+        "color14": "#D6D6D7",
+        "color15": "#e6e6e6"
+    }
+}

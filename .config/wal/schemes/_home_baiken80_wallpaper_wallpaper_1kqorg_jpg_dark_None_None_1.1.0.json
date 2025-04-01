@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/baiken80/wallpaper/wallpaper/1kqorg.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#06181D",
+        "foreground": "#c4ded9",
+        "cursor": "#c4ded9"
+    },
+    "colors": {
+        "color0": "#06181D",
+        "color1": "#377C82",
+        "color2": "#417E82",
+        "color3": "#3C8387",
+        "color4": "#4A9093",
+        "color5": "#69ACAB",
+        "color6": "#7FC0BA",
+        "color7": "#c4ded9",
+        "color8": "#899b97",
+        "color9": "#377C82",
+        "color10": "#417E82",
+        "color11": "#3C8387",
+        "color12": "#4A9093",
+        "color13": "#69ACAB",
+        "color14": "#7FC0BA",
+        "color15": "#c4ded9"
+    }
+}

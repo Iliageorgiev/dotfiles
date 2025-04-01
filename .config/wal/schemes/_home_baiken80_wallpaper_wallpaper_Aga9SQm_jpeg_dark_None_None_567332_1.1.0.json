@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/baiken80/wallpaper/wallpaper/Aga9SQm.jpeg",
+    "alpha": "100",
+    "special": {
+        "background": "#050406",
+        "foreground": "#ede7e0",
+        "cursor": "#ede7e0"
+    },
+    "colors": {
+        "color0": "#050406",
+        "color1": "#A54542",
+        "color2": "#BB936D",
+        "color3": "#186592",
+        "color4": "#D57088",
+        "color5": "#279AB9",
+        "color6": "#D1B8A2",
+        "color7": "#ede7e0",
+        "color8": "#a5a19c",
+        "color9": "#A54542",
+        "color10": "#BB936D",
+        "color11": "#186592",
+        "color12": "#D57088",
+        "color13": "#279AB9",
+        "color14": "#D1B8A2",
+        "color15": "#ede7e0"
+    }
+}

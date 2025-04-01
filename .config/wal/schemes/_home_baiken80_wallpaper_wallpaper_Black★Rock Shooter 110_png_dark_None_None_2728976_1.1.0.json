@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/baiken80/wallpaper/wallpaper/Black\u2605Rock Shooter 110.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0b090a",
+        "foreground": "#e5e5e8",
+        "cursor": "#e5e5e8"
+    },
+    "colors": {
+        "color0": "#0b090a",
+        "color1": "#7E7D81",
+        "color2": "#8F8E91",
+        "color3": "#9F9EA1",
+        "color4": "#B0AFB2",
+        "color5": "#BDBEC3",
+        "color6": "#D1D0D2",
+        "color7": "#e5e5e8",
+        "color8": "#a0a0a2",
+        "color9": "#7E7D81",
+        "color10": "#8F8E91",
+        "color11": "#9F9EA1",
+        "color12": "#B0AFB2",
+        "color13": "#BDBEC3",
+        "color14": "#D1D0D2",
+        "color15": "#e5e5e8"
+    }
+}

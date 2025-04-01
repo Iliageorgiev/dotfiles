@@ -1,0 +1,236 @@
+{
+    "layer": "top",
+    "position": "top",
+    "mod": "dock",
+    "spacing": 1,
+    "margin-top": 0,
+    
+    "fixed-center":true,
+    "exclusive": true,
+    "passthrough": false,
+    "gtk-layer-shell": true,
+    "reload_style_on_change": true,
+    "height": 46,
+    "modules-left": ["hyprland/workspaces","cpu","memory","disk","custom/network"],
+    "modules-center": ["clock"],
+    "modules-right": ["hyprland/language","custom/pacman","custom/waybar-mpris","temperature","custom/weather","pulseaudio#volume","tray"],
+    "hyprland/window": {
+         "format": "{}"    
+    
+    },
+
+    "custom/launch_wofi": {
+        "format": " ",
+        "on-click": "pkill wofi; wofi -n",
+        "tooltip": false
+    },
+
+    "custom/battery": {
+        "exec": "~/.config/scripts/get_battery.sh",
+        "format": " {percentage}%",
+        "interval": 60,
+        
+        "tooltip": false,
+        "max-length": 20
+        
+    },
+
+
+    
+
+    "cpu": {
+        "interval": 10,
+        "format": "<span color='#FFD700'> </span>{usage}%",
+        "max-length": 10,
+        "on-click": "kitty --start-as=fullscreen --title btop sh -c 'btop'"
+    },
+
+    "disk": {
+        "interval": 30,
+        "format": "<span color='#6767B9'></span> {percentage_used}%",
+        "path": "/",
+        "tooltip": true,
+        "tooltip-format": "HDD - {used} used out of {total} on {path} ({percentage_used}%)",
+        "on-click": "kitty --start-as=fullscreen --title btop sh -c 'btop'"
+    },
+
+    "memory": {
+        "interval": 300,
+        "format": "<span color='#F39063'></span>  {}%",
+        "max-length": 10,
+        "tooltip": true,
+        "tooltip-format": "Memory - {used:0.1f}GB used",
+        "on-click": "kitty --start-as=fullscreen --title btop sh -c 'btop'"
+    },
+    
+    "custom/pacman": {
+          "format": "{icon}{text}",
+          "return-type": "json",
+          "format-icons": {
+          "pending-updates": "<span color='#00FFFF'> </span> ",
+          "updated": ""
+          
+          },
+          "exec-if": "which waybar-updates",
+          "exec": "waybar-updates -l 50"
+          
+    },
+
+    "hyprland/workspaces": {
+        "disable-scroll": false,
+        "active-only": false,
+        "all-outputs": false,
+        "on-click": "activate",
+        
+        "format": "{name}",
+        "format-icons": {      
+             " 1 ": " ",
+             " 2 ": "",
+             " 3 ": " ",
+             " 4 ": "",
+             " 5 ": " ",
+             
+      
+        },
+       "persistent-workspaces": {
+             "DP-3": [ 1 , 2 , 3 , 4 , 5 ],
+    }
+   
+    },
+
+    "custom/weather": {
+        "exec": "curl 'https://wttr.in/Zgorigrad?format=1' | tr -d '+'",
+        "interval": 1800,
+        "max-length": 15
+        
+    },
+
+    "tray": {
+        "icon-size": 16,
+        "spacing": 10
+    },
+
+        "clock": {
+        "format": "{:%H:%M:%S}",
+        "interval": 1,
+        "format-alt": "{:%A, %B %d, %Y (%R)}  ",
+        "tooltip-format": "<tt><small>{calendar}</small></tt>",
+        "calendar": {
+                    "mode"          : "year",
+                    "mode-mon-col"  : 3,
+                    "weeks-pos"     : "right",
+                    "on-scroll"     : 1,
+                    "format": {
+                              "months":     "<span color='#ffead3'><b>{}</b></span>",
+                              "days":       "<span color='#ecc6d9'><b>{}</b></span>",
+                              "weeks":      "<span color='#99ffdd'><b>W{}</b></span>",
+                              "weekdays":   "<span color='#ffcc66'><b>{}</b></span>",
+                              "today":      "<span color='#ff6699'><b><u>{}</u></b></span>"
+                              }
+                    },
+        "actions":  {
+                    "on-click-right": "mode",
+                    "on-click-forward": "tz_up",
+                    "on-click-backward": "tz_down",
+                    "on-scroll-up": "shift_up",
+                    "on-scroll-down": "shift_down"
+                    }
+    
+    },  
+    
+    
+
+    "hyprland/language": {
+        "format": "{}",
+        
+        "format-en": "<span color='#BA3552'>U</span><span color='#2B16FF'>S</span>",
+        "format-bg": "<span color='#FFFFFF'>Б</span><span color='#289E7A'>Г</span>",
+        
+           	
+        
+        
+    },
+      
+    
+
+    "pulseaudio#volume": {
+        "format": "{icon}  {volume}%",
+        "format-bluetooth": "{volume}% {icon}",
+        "format-muted": "",
+        "format-icons": {
+            "alsa_output.pci-0000_00_1f.3.analog-stereo": "",
+            "alsa_output.pci-0000_00_1f.3.analog-stereo-muted": "",
+            "headphone": "",
+            "hands-free": "",
+            "headset": "",
+            "phone": "",
+            "phone-muted": "",
+            "portable": "",
+            "car": "",
+            "default": ["", ""]
+        },
+        "scroll-step": 5,
+        "on-click": "pavucontrol",
+        "ignored-sinks": ["Easy Effects Sink"]
+
+    
+           
+        
+    },    
+    "custom/waybar-mpris": {
+               "return-type": "json",
+               "exec": "waybar-mpris --order SYMBOL:ARTIST:TITLE --autofocus",
+               
+               "on-click": "waybar-mpris --send toggle",
+               // This option will switch between players on right click.
+                   "on-click-right": "waybar-mpris --send player-prev",
+               // The options below will switch the selected player on scroll
+                  // "on-scroll-up": "waybar-mpris --send player-next",
+                   // "on-scroll-down": "waybar-mpris --send player-prev",
+               // The options below will go to next/previous track on scroll
+                   // "on-scroll-up": "waybar-mpris --send next",
+                   // "on-scroll-down": "waybar-mpris --send prev",
+               "escape": true,
+               "max-length": 20,
+               },
+               	"status-icons": {
+               		"paused": "⏸"
+                
+    },
+    
+    "temperature": {
+        "thermal-zone": 1,
+        "hwmon-path":  ["/sys/class/hwmon/hwmon1/temp1_input", "/sys/class/thermal/thermal_zone0/temp"],
+        "format": " {temperatureC}°C",
+        "critical-threshold": 70,
+        "format-critical": " {temperatureC}°",
+        "on-click": "kitty --start-as=fullscreen --title btop sh -c 'btop'"
+ 
+    },
+       
+    "custom/network": {
+                 "exec": "~/.config/waybar/network-speed.sh",
+                 "interval": 1,
+                 "format": "{}"
+        
+    },
+    "cava": {
+        "framerate": 30,
+                 "autosens": 1,
+                 "sensitivity": 10,
+                 "bars": 300,
+                 "lower_cutoff_freq": 50,
+                 "higher_cutoff_freq": 10000,
+                 "method": "pulse",
+                 "source": "auto",
+                 "stereo": true,
+                 "reverse": false,
+                 "bar_delimiter": 0,
+                 "monstercat": false,
+                 "waves": false,
+                 "noise_reduction": 0.77,
+                 "input_delay": 2,
+                 "format-icons" : ["▁", "▂", "▃", "▄", "▅", "▆", "▇", "█" ],
+                 
+                            } 
+}

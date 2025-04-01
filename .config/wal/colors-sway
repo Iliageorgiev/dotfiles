@@ -1,0 +1,21 @@
+set $wallpaper /home/baiken80/wallpaper/wallpaper/103.jpg
+
+set $background #0E1D20
+set $foreground #dcdacf
+
+set $color0 #0E1D20
+set $color1 #8E745A
+set $color2 #668670
+set $color3 #9F956A
+set $color4 #2A7D82
+set $color5 #59958E
+set $color6 #9FAA9A
+set $color7 #dcdacf
+set $color8 #9a9890
+set $color9 #8E745A
+set $color10 #668670
+set $color11 #9F956A
+set $color12 #2A7D82
+set $color13 #59958E
+set $color14 #9FAA9A
+set $color15 #dcdacf

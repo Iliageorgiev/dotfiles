@@ -1,0 +1,10 @@
+[hyprfocus]
+description = "a plugin which provides focus animations for us borderless folks, originally inspired by flashfocus"
+version = "2.0"
+author = "Vortex"
+
+[hyprfocus.build]
+output = "hyprfocus.so"
+steps = [
+    "make all",
+]

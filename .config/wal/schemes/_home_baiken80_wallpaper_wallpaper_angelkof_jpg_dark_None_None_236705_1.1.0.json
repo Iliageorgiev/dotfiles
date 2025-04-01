@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/baiken80/wallpaper/wallpaper/angelkof.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#221b22",
+        "foreground": "#9fabc4",
+        "cursor": "#9fabc4"
+    },
+    "colors": {
+        "color0": "#221b22",
+        "color1": "#AB4B55",
+        "color2": "#D04849",
+        "color3": "#E65453",
+        "color4": "#30538D",
+        "color5": "#214D92",
+        "color6": "#235091",
+        "color7": "#9fabc4",
+        "color8": "#6f7789",
+        "color9": "#AB4B55",
+        "color10": "#D04849",
+        "color11": "#E65453",
+        "color12": "#30538D",
+        "color13": "#214D92",
+        "color14": "#235091",
+        "color15": "#9fabc4"
+    }
+}

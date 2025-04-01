@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/baiken80/wallpaper/wallpaper/ggs-baiken-1920x1080-1.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#090404",
+        "foreground": "#e4d1cf",
+        "cursor": "#e4d1cf"
+    },
+    "colors": {
+        "color0": "#090404",
+        "color1": "#935B56",
+        "color2": "#A44E40",
+        "color3": "#BA9A62",
+        "color4": "#B468AA",
+        "color5": "#768087",
+        "color6": "#A59EA3",
+        "color7": "#e4d1cf",
+        "color8": "#9f9290",
+        "color9": "#935B56",
+        "color10": "#A44E40",
+        "color11": "#BA9A62",
+        "color12": "#B468AA",
+        "color13": "#768087",
+        "color14": "#A59EA3",
+        "color15": "#e4d1cf"
+    }
+}

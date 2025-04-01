@@ -1,0 +1,23 @@
+game:
+  arch: auto
+  exe: /mnt/f02b6907-cd4d-4cfe-98fc-1f16f4a889fa/@home/belial/Games/DNF Duel/DNF Duel
+    Nen Master/DNFDUEL.exe
+  prefix: /mnt/f02b6907-cd4d-4cfe-98fc-1f16f4a889fa/@home/belial/dnf-wine
+  working_dir: /mnt/f02b6907-cd4d-4cfe-98fc-1f16f4a889fa/@home/belial/Games/DNF Duel/DNF
+    Duel Nen Master
+system:
+  disable_runtime: false
+  gamescope: false
+  gamescope_flags: ''
+  gamescope_game_res: 1920x1080
+  gamescope_output_res: 1920x1080
+  gamescope_window_mode: -b
+  locale: ''
+  prefer_system_libs: true
+  sdl_video_fullscreen: '0'
+  xephyr: 'off'
+  xephyr_fullscreen: false
+wine:
+  esync: true
+  fsync: true
+  version: wine-9.22-amd64-wow64

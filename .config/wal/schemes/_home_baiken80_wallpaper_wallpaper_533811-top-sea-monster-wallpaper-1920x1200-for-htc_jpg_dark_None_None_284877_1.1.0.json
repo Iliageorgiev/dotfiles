@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/baiken80/wallpaper/wallpaper/533811-top-sea-monster-wallpaper-1920x1200-for-htc.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#090F12",
+        "foreground": "#efecdf",
+        "cursor": "#efecdf"
+    },
+    "colors": {
+        "color0": "#090F12",
+        "color1": "#78826E",
+        "color2": "#A98E71",
+        "color3": "#C5A778",
+        "color4": "#B39E87",
+        "color5": "#C9B590",
+        "color6": "#E0D3AA",
+        "color7": "#efecdf",
+        "color8": "#a7a59c",
+        "color9": "#78826E",
+        "color10": "#A98E71",
+        "color11": "#C5A778",
+        "color12": "#B39E87",
+        "color13": "#C9B590",
+        "color14": "#E0D3AA",
+        "color15": "#efecdf"
+    }
+}

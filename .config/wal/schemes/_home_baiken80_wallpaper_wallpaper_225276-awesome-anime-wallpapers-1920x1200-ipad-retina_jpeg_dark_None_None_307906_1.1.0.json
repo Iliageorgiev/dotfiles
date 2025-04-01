@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/baiken80/wallpaper/wallpaper/225276-awesome-anime-wallpapers-1920x1200-ipad-retina.jpeg",
+    "alpha": "100",
+    "special": {
+        "background": "#0B0708",
+        "foreground": "#e1e6e7",
+        "cursor": "#e1e6e7"
+    },
+    "colors": {
+        "color0": "#0B0708",
+        "color1": "#54659C",
+        "color2": "#9C6B85",
+        "color3": "#6A93C4",
+        "color4": "#A5A7B2",
+        "color5": "#98B1D0",
+        "color6": "#B0CCD6",
+        "color7": "#e1e6e7",
+        "color8": "#9da1a1",
+        "color9": "#54659C",
+        "color10": "#9C6B85",
+        "color11": "#6A93C4",
+        "color12": "#A5A7B2",
+        "color13": "#98B1D0",
+        "color14": "#B0CCD6",
+        "color15": "#e1e6e7"
+    }
+}

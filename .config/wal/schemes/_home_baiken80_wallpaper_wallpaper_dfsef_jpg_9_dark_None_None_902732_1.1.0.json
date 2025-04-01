@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/baiken80/wallpaper/wallpaper/dfsef.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#040203",
+        "foreground": "#c0bfc0",
+        "cursor": "#c0bfc0"
+    },
+    "colors": {
+        "color0": "#040203",
+        "color1": "#6E2D2B",
+        "color2": "#4B3D43",
+        "color3": "#61555B",
+        "color4": "#962A25",
+        "color5": "#EE332A",
+        "color6": "#B5574F",
+        "color7": "#c0bfc0",
+        "color8": "#424142",
+        "color9": "#6E2D2B",
+        "color10": "#4B3D43",
+        "color11": "#61555B",
+        "color12": "#962A25",
+        "color13": "#EE332A",
+        "color14": "#B5574F",
+        "color15": "#c0bfc0"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/baiken80/wallpaper/wallpaper/Td2PCnC.jpeg",
+    "alpha": "100",
+    "special": {
+        "background": "#070708",
+        "foreground": "#e2e1e6",
+        "cursor": "#e2e1e6"
+    },
+    "colors": {
+        "color0": "#070708",
+        "color1": "#9C697E",
+        "color2": "#395A94",
+        "color3": "#596F92",
+        "color4": "#6C8FAD",
+        "color5": "#9E97A3",
+        "color6": "#B3B4C3",
+        "color7": "#e2e1e6",
+        "color8": "#9e9da1",
+        "color9": "#9C697E",
+        "color10": "#395A94",
+        "color11": "#596F92",
+        "color12": "#6C8FAD",
+        "color13": "#9E97A3",
+        "color14": "#B3B4C3",
+        "color15": "#e2e1e6"
+    }
+}

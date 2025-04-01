@@ -1,0 +1,29 @@
+[Default Applications]
+x-scheme-handler/http=userapp-Floorp-RYJ232.desktop
+x-scheme-handler/https=userapp-Floorp-RYJ232.desktop
+x-scheme-handler/chrome=userapp-Floorp-RYJ232.desktop
+text/html=userapp-Floorp-RYJ232.desktop
+application/x-extension-htm=userapp-Floorp-RYJ232.desktop
+application/x-extension-html=userapp-Floorp-RYJ232.desktop
+application/x-extension-shtml=userapp-Floorp-RYJ232.desktop
+application/xhtml+xml=userapp-Floorp-RYJ232.desktop
+application/x-extension-xhtml=userapp-Floorp-RYJ232.desktop
+application/x-extension-xht=userapp-Floorp-RYJ232.desktop
+image/jpeg=org.gnome.eog.desktop
+inode/directory=thunar.desktop
+x-scheme-handler/tonsite=org.telegram.desktop.desktop
+
+[Added Associations]
+x-scheme-handler/http=userapp-Floorp-RYJ232.desktop;
+x-scheme-handler/https=userapp-Floorp-RYJ232.desktop;
+x-scheme-handler/chrome=userapp-Floorp-RYJ232.desktop;
+text/html=userapp-Floorp-RYJ232.desktop;
+application/x-extension-htm=userapp-Floorp-RYJ232.desktop;
+application/x-extension-html=userapp-Floorp-RYJ232.desktop;
+application/x-extension-shtml=userapp-Floorp-RYJ232.desktop;
+application/xhtml+xml=userapp-Floorp-RYJ232.desktop;
+application/x-extension-xhtml=userapp-Floorp-RYJ232.desktop;
+application/x-extension-xht=userapp-Floorp-RYJ232.desktop;
+application/x-compressed-tar=peazip.desktop;
+image/jpeg=mupdf.desktop;feh.desktop;org.gnome.eog.desktop;
+x-scheme-handler/tonsite=org.telegram.desktop.desktop;

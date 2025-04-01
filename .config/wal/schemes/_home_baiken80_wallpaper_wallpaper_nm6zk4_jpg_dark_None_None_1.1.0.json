@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/baiken80/wallpaper/wallpaper/nm6zk4.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#080A0E",
+        "foreground": "#e1cfbf",
+        "cursor": "#e1cfbf"
+    },
+    "colors": {
+        "color0": "#080A0E",
+        "color1": "#8E7562",
+        "color2": "#AA8B6E",
+        "color3": "#CD9D4C",
+        "color4": "#D0A46C",
+        "color5": "#817A83",
+        "color6": "#C0AF9B",
+        "color7": "#e1cfbf",
+        "color8": "#9d9085",
+        "color9": "#8E7562",
+        "color10": "#AA8B6E",
+        "color11": "#CD9D4C",
+        "color12": "#D0A46C",
+        "color13": "#817A83",
+        "color14": "#C0AF9B",
+        "color15": "#e1cfbf"
+    }
+}

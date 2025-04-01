@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/baiken80/wallpaper/wallpaper/riGMuom.jpeg",
+    "alpha": "100",
+    "special": {
+        "background": "#100a0c",
+        "foreground": "#eacbc9",
+        "cursor": "#eacbc9"
+    },
+    "colors": {
+        "color0": "#100a0c",
+        "color1": "#6F443B",
+        "color2": "#6B2F44",
+        "color3": "#6D4B4C",
+        "color4": "#A4344E",
+        "color5": "#985A55",
+        "color6": "#D7946F",
+        "color7": "#eacbc9",
+        "color8": "#a38e8c",
+        "color9": "#6F443B",
+        "color10": "#6B2F44",
+        "color11": "#6D4B4C",
+        "color12": "#A4344E",
+        "color13": "#985A55",
+        "color14": "#D7946F",
+        "color15": "#eacbc9"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/baiken80/wallpaper/wallpaper/erthsfgfvbnn.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0E0703",
+        "foreground": "#e4c8c4",
+        "cursor": "#e4c8c4"
+    },
+    "colors": {
+        "color0": "#0E0703",
+        "color1": "#9A5F57",
+        "color2": "#AC746D",
+        "color3": "#C6756B",
+        "color4": "#BC8579",
+        "color5": "#B87C84",
+        "color6": "#CBA49C",
+        "color7": "#e4c8c4",
+        "color8": "#9f8c89",
+        "color9": "#9A5F57",
+        "color10": "#AC746D",
+        "color11": "#C6756B",
+        "color12": "#BC8579",
+        "color13": "#B87C84",
+        "color14": "#CBA49C",
+        "color15": "#e4c8c4"
+    }
+}

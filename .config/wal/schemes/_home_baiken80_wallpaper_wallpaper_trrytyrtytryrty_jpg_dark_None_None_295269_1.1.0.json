@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/baiken80/wallpaper/wallpaper/trrytyrtytryrty.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0E030B",
+        "foreground": "#e0e3e7",
+        "cursor": "#e0e3e7"
+    },
+    "colors": {
+        "color0": "#0E030B",
+        "color1": "#AE768A",
+        "color2": "#6E8EA4",
+        "color3": "#3BC0CB",
+        "color4": "#929CB0",
+        "color5": "#B8B0BF",
+        "color6": "#ACD5DE",
+        "color7": "#e0e3e7",
+        "color8": "#9c9ea1",
+        "color9": "#AE768A",
+        "color10": "#6E8EA4",
+        "color11": "#3BC0CB",
+        "color12": "#929CB0",
+        "color13": "#B8B0BF",
+        "color14": "#ACD5DE",
+        "color15": "#e0e3e7"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/baiken80/wallpaper/wallpaper/nk85pm.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#090909",
+        "foreground": "#d9d9d4",
+        "cursor": "#d9d9d4"
+    },
+    "colors": {
+        "color0": "#090909",
+        "color1": "#BCBE32",
+        "color2": "#87857B",
+        "color3": "#92928B",
+        "color4": "#A4A39A",
+        "color5": "#B2B3AD",
+        "color6": "#C0BFB6",
+        "color7": "#d9d9d4",
+        "color8": "#979794",
+        "color9": "#BCBE32",
+        "color10": "#87857B",
+        "color11": "#92928B",
+        "color12": "#A4A39A",
+        "color13": "#B2B3AD",
+        "color14": "#C0BFB6",
+        "color15": "#d9d9d4"
+    }
+}

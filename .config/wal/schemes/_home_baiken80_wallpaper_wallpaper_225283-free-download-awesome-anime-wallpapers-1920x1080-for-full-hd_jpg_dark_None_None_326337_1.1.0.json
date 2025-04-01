@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/baiken80/wallpaper/wallpaper/225283-free-download-awesome-anime-wallpapers-1920x1080-for-full-hd.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0A0707",
+        "foreground": "#e0ecf0",
+        "cursor": "#e0ecf0"
+    },
+    "colors": {
+        "color0": "#0A0707",
+        "color1": "#4EBFB1",
+        "color2": "#89948E",
+        "color3": "#A0AEAD",
+        "color4": "#B8B0CC",
+        "color5": "#B3CBCC",
+        "color6": "#C9D7DE",
+        "color7": "#e0ecf0",
+        "color8": "#9ca5a8",
+        "color9": "#4EBFB1",
+        "color10": "#89948E",
+        "color11": "#A0AEAD",
+        "color12": "#B8B0CC",
+        "color13": "#B3CBCC",
+        "color14": "#C9D7DE",
+        "color15": "#e0ecf0"
+    }
+}

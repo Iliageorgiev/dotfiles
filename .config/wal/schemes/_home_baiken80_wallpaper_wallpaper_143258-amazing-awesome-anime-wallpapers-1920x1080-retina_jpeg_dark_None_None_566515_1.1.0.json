@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/baiken80/wallpaper/wallpaper/143258-amazing-awesome-anime-wallpapers-1920x1080-retina.jpeg",
+    "alpha": "100",
+    "special": {
+        "background": "#050405",
+        "foreground": "#e4e1e6",
+        "cursor": "#e4e1e6"
+    },
+    "colors": {
+        "color0": "#050405",
+        "color1": "#435BA1",
+        "color2": "#95798B",
+        "color3": "#728DB3",
+        "color4": "#9E97A6",
+        "color5": "#A5AECD",
+        "color6": "#C3BAC9",
+        "color7": "#e4e1e6",
+        "color8": "#9f9da1",
+        "color9": "#435BA1",
+        "color10": "#95798B",
+        "color11": "#728DB3",
+        "color12": "#9E97A6",
+        "color13": "#A5AECD",
+        "color14": "#C3BAC9",
+        "color15": "#e4e1e6"
+    }
+}

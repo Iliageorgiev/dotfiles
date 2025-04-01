@@ -1,0 +1,11 @@
+{
+  "theme.bar.buttons.enableBorders": true,
+  "theme.bar.buttons.borderSize": "0.1px",
+  "theme.font.size": "1.0rem",
+  "theme.bar.buttons.modules.ram.enableBorder": true,
+  "menus.clock.weather.location": "Zgorigrad",
+  "menus.clock.weather.unit": "metric",
+  "menus.clock.time.military": true,
+  "scalingPriority": "hyprland",
+  "theme.bar.scaling": 100
+}

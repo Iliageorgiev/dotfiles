@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/baiken80/wallpaper/wallpaper/48pyp1.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#000000",
+        "foreground": "#f2f2f2",
+        "cursor": "#f2f2f2"
+    },
+    "colors": {
+        "color0": "#000000",
+        "color1": "#A7A7A7",
+        "color2": "#B8B8B8",
+        "color3": "#C9C9C9",
+        "color4": "#D8D8D8",
+        "color5": "#E8E8E8",
+        "color6": "#F2F2F2",
+        "color7": "#f2f2f2",
+        "color8": "#a9a9a9",
+        "color9": "#A7A7A7",
+        "color10": "#B8B8B8",
+        "color11": "#C9C9C9",
+        "color12": "#D8D8D8",
+        "color13": "#E8E8E8",
+        "color14": "#F2F2F2",
+        "color15": "#f2f2f2"
+    }
+}

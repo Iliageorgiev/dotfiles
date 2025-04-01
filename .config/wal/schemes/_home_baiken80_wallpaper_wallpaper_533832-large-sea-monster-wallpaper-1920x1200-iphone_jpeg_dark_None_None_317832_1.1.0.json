@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/baiken80/wallpaper/wallpaper/533832-large-sea-monster-wallpaper-1920x1200-iphone.jpeg",
+    "alpha": "100",
+    "special": {
+        "background": "#0a1c39",
+        "foreground": "#ccdae9",
+        "cursor": "#ccdae9"
+    },
+    "colors": {
+        "color0": "#0a1c39",
+        "color1": "#3A85B4",
+        "color2": "#4991B9",
+        "color3": "#689CB2",
+        "color4": "#60A2C8",
+        "color5": "#95ACB4",
+        "color6": "#93B8D3",
+        "color7": "#ccdae9",
+        "color8": "#8e98a3",
+        "color9": "#3A85B4",
+        "color10": "#4991B9",
+        "color11": "#689CB2",
+        "color12": "#60A2C8",
+        "color13": "#95ACB4",
+        "color14": "#93B8D3",
+        "color15": "#ccdae9"
+    }
+}

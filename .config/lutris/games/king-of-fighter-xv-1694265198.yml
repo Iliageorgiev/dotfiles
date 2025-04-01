@@ -1,0 +1,19 @@
+game:
+  args: ''
+  exe: /mnt/f02b6907-cd4d-4cfe-98fc-1f16f4a889fa/@home/belial/Downloads/KING.OF.FIGHTERS.XV.Portable/KOFXV_Steam.exe
+  working_dir: /mnt/f02b6907-cd4d-4cfe-98fc-1f16f4a889fa/@home/belial/Downloads/KING.OF.FIGHTERS.XV.Portable
+system:
+  disable_runtime: false
+  gamescope: false
+  gamescope_game_res: 1920x1080
+  gamescope_output_res: 1920x1080
+  gamescope_window_mode: -f
+  prefer_system_libs: true
+  vk_icd: /usr/share/vulkan/icd.d/radeon_icd.x86_64.json
+wine:
+  battleye: false
+  eac: false
+  esync: true
+  fsr: true
+  fsync: true
+  version: lutris-GE-Proton8-14-x86_64

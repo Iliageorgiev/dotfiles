@@ -1,0 +1,84 @@
+@import 'colors-waybar.css';
+window {
+    margin: 0px;
+    
+    border: 0px ridge @color11;
+    background-color: @background;
+    border-radius: 3px;
+    box-shadow: 50px 50px 50px 50px @color11;
+    
+}
+
+#input {
+    padding: 4px;
+    margin: 4px;
+    padding-left: 20px;
+    border: 9px;
+    color: @color7;
+    font-weight: bold;
+    background-color: @color15;
+   	outline: none;
+    border-radius: 10px;
+    margin: 10px;
+    margin-bottom: 2px;
+}
+#input:focus {
+    border: 2px groove @color10;
+    margin-bottom: 0px;
+    color:@color9
+}
+
+#inner-box {
+    margin: 4px;
+    border: 0px solid @color11;
+    color: @color11;
+    font-weight: bold;
+    background-color: @color14;
+    border-radius: 15px;
+    
+}
+
+#outer-box {
+    margin: 0px;
+    border: none;
+    border-radius: 15px;
+    background-color: @color14;
+    
+}
+
+#scroll {
+    margin-top: 5px;
+    border: none;
+    border-radius: 15px;
+    margin-bottom: 5px;
+    background: @color0;
+    /* background: rgb(255,255,255); */
+}
+
+#img:selected {
+    background-color: @color14;
+    border-radius: 15px;
+}
+
+#text:selected {
+    color: #cdd6f4;
+    margin: 0px 0px;
+    border: none;
+    border-radius: 15px;
+    background-color: @color14;
+}
+
+#entry {
+    margin: 0px 0px;
+    border: none;
+    border-radius: 15px;
+    background-color: @color11;
+}
+
+#entry:selected {
+    margin: 0px 0px;
+    border: none;
+    border-radius: 15px;
+    background-color: #89b4fa;
+}
+

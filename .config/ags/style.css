@@ -1,0 +1,735 @@
+@import "../../.cache/wal/colors-waybar.css";
+
+@keyframes neon-glow {
+    from {
+        box-shadow: 0 0 5px @color14, 0 0 10px @color11, 0 0 15px @color12, 0 0 20px @color13;
+    }
+    to {
+        box-shadow: 0 0 10px @color14, 0 0 20px @color11, 0 0 30px @color12, 0 0 40px @color13;
+    }
+}
+
+@keyframes neon-flicker {
+    0% { opacity: 1; }
+    50% { opacity: 0.8; }
+    100% { opacity: 1; }
+}
+
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1; }
+}
+
+.glossy-effect {
+    background-image: 
+        linear-gradient(135deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 0.1) 100%),
+        linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0) 100%);
+    background-size: 200% 100%, 100% 100%;
+    animation: shine 10s linear infinite;
+    box-shadow: 
+        0 0 1px rgba(255, 255, 255, 0.3),
+        inset 0 0 1px rgba(255, 255, 255, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+window#bar {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: 1px solid @color11;
+    background-image: 
+        linear-gradient(to right, 
+            rgba(255, 255, 255, 0.04) 0%, 
+            rgba(255, 255, 255, 0.06) 5%, 
+            rgba(255, 255, 255, 0.04) 20%, 
+            rgba(255, 255, 255, 0.03) 50%, 
+            rgba(255, 255, 255, 0.04) 80%, 
+            rgba(255, 255, 255, 0.06) 95%, 
+            rgba(255, 255, 255, 0.04) 100%
+        ),
+        linear-gradient(to bottom,
+            rgba(255, 255, 255, 0.08) 0%,
+            rgba(255, 255, 255, 0.04) 50%,
+            rgba(255, 255, 255, 0.02) 51%,
+            rgba(255, 255, 255, 0.03) 100%
+        );
+    background-size: 200% 100%, 100% 100%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    animation: shine 15s linear infinite;
+    padding: 8px 0;
+    
+}
+
+window#bar > * {
+    padding: 2px;
+}
+
+* {
+    font-family: "URW Bookman";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    text-shadow: 0 0 3px @color14, 0 0 7px @color11, 0 0 10px @color12, 0 0 15px @color13;
+    
+}
+
+button {
+    padding: 0 10px;
+    background: none;
+    border: none;
+    box-shadow: none;
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 5px @color14, 0 0 10px @color11, 0 0 15px @color12;
+    text-shadow: 0 0 5px @color14, 0 0 10px @color11, 0 0 15px @color12;
+}
+
+button.active {
+    background-color: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0 10px @color14, 0 0 20px @color11, 0 0 30px @color12;
+    text-shadow: 0 0 8px @color14, 0 0 15px @color11, 0 0 20px @color12;
+}
+
+label {
+    font-family: sans-serif;
+    font-size: 14px;
+    margin: 0 5px;
+}
+
+window#window,
+window#cpu,
+window#disk,
+window#memory,
+window#clock,
+window#network,
+window#tray,
+window#workspaces {
+    background: black;
+    border-color: @color11;
+    opacity: 0.9;
+    padding: 0 10px;
+    margin: 3px 0;
+    margin-top: 8px;
+    border: 0;
+    text-shadow: 0 0 3px @color14, 0 0 7px @color11, 0 0 10px @color12, 0 0 15px @color13;
+    box-shadow: 0 1px 3px 1px @color14, 0 -1px 3px 1px @color14, 0 -1px 3px 1px @color14, 0 1px 3px 1px @color14;
+}
+
+window#cpu {
+    border-radius: 0;
+    border-style: ridge;
+    border-width: 2px;
+    margin-left: 0;
+}
+
+window#workspaces {
+    padding-right: 1px;
+    padding-left: 1px;
+    border-radius: 0;
+    border-style: ridge;
+    border-width: 2px;
+    margin-left: 1px;
+}
+
+window#window {
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-style: ridge;
+    border-width: 2px;
+}
+
+window#tray {
+    border-radius: 0;
+    opacity: 0.8;
+    border-style: ridge;
+    border-width: 2px;
+}
+
+window#clock {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    font-size: 16px;
+}
+
+window#memory {
+    border-style: ridge;
+    border-width: 2px;
+}
+
+window#disk {
+    border-radius: 0;
+    border-style: ridge;
+    border-width: 2px;
+}
+
+window#network {
+    border-radius: 0 10px 10px 0;
+    border-style: ridge;
+    border-width: 2px;
+    margin-right: 10px;
+}
+
+.system-tray {
+    font-size: 14px;
+    margin: 0 10px;
+    text-shadow: 0 0 8px @color14, 0 0 15px @color11, 0 0 20px @color12, 0 0 25px @color13;
+}
+
+.system-tray label {
+    margin: 0 5px;
+    text-shadow: 0 0 8px @color14, 0 0 15px @color11, 0 0 20px @color12, 0 0 25px @color13;
+}
+
+.system-tray icon {
+    margin: 0 5px;
+    text-shadow: 0 0 8px @color14, 0 0 15px @color11, 0 0 20px @color12, 0 0 25px @color13;
+}
+
+window#bar .clock {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.main-bar {
+    min-height: 30px;
+    background-image: 
+        linear-gradient(135deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 0.1) 100%),
+        linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0) 100%);
+    background-size: 200% 100%, 100% 100%;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.clock {
+    font-size: 22px;
+    font-weight: bold;
+    text-shadow: 0 0 5px @color14, 0 0 10px @color11, 0 0 15px @color12;
+    letter-spacing: 1px;
+}
+
+.workspaces {
+    background-color: transparent;
+    padding: 2px;
+    border-radius: 6px;
+}
+
+.workspaces .workspace-button {
+    padding: 2px 10px;
+    margin: 2px 2px 0 2px;
+    border-radius: 4px;
+    transition: all 0.4s ease-in;
+    
+      
+    background-image: 
+            linear-gradient(135deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 0.1) 100%),
+            linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0) 100%);
+    background-size: 200% 100%, 100% 100%;
+    background-color: rgba(255, 255, 255, 0.05);
+    color: rgba(255, 255, 255, 0.9);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    box-shadow: none;
+}
+
+.workspaces .workspace-button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    background-image: 
+        linear-gradient(135deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.1) 100%),
+        linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.01) 100%);
+    background-size: 200% 100%, 100% 100%;
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 0 2px rgba(255, 255, 255, 0.1);
+    text-shadow: 0 0 1px rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.workspaces .workspace-button.active {
+    background-color: rgba(255, 255, 255, 0.15);
+    color: white;
+    background-image: 
+        linear-gradient(135deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.05) 50%, rgba(255, 255, 255, 0.15) 100%),
+        linear-gradient(to bottom, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.02) 100%);
+    background-size: 200% 100%, 100% 100%;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1), 0 -1px 2px rgba(255, 255, 255, 0.1);
+    border: 1px solid @color11;
+    padding: 3px 10px 1px 10px; 
+    margin: 0 2px 1px 2px;
+    
+}
+
+.workspaces .workspace-button.active .workspace-content {
+    font-size: 120%;
+    padding: 2px;
+}
+
+.workspaces .workspace-button.active .workspace-content icon {
+    min-width: 18px;
+    min-height: 18px;
+}
+
+.workspaces .workspace-button.active .workspace-content icon {
+    min-width: 18px;
+    min-height: 18px;
+}
+
+window#mpris {
+    background-color: rgba(0, 0, 0, 0.438);
+    border-radius: 10px;
+    padding: 8px;
+    margin: 8px;
+    color: @foreground;
+    box-shadow: 
+        0 0 0 1px alpha(@color0, 0.45),
+        0 0 6px 0 alpha(@color0, 0.45),
+        inset 0 0 0 1px alpha(@foreground, 0.05);
+    text-shadow: 0 0 3px alpha(@foreground, 0.3);
+}
+
+window#mpris .player {
+    padding: 10px;
+    border: 1px solid @color11;
+    background-image: 
+        linear-gradient(135deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 0.2) 100%),
+        linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0) 100%);
+    background-size: 200% 100%, 100% 100%;
+}
+
+window#mpris .player .img {
+    min-width: 64px;
+    min-height: 64px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 1px;
+    margin-right: 10px;
+}
+
+window#mpris .player .title {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+window#mpris .player .artist {
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+window#mpris .player button {
+    padding: 5px;
+    margin: 0 5px;
+    background: none;
+    border: none;
+    text-shadow: 0 0 8px @color14, 0 0 15px @color11, 0 0 20px @color12, 0 0 25px @color13;
+}
+
+window#mpris .player button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 5px @color14, 0 0 10px @color11, 0 0 15px @color12;
+}
+
+window#mpris .player .play-pause {
+    min-width: 32px;
+    min-height: 32px;
+    text-shadow: 0 0 8px @color14, 0 0 15px @color11, 0 0 20px @color12, 0 0 25px @color13;
+}
+
+window#mpris .player .position,
+window#mpris .player .length {
+    font-size: 12px;
+    opacity: 0.8;
+    
+}
+
+window#volume-control,
+window#microphone-control {
+    background-color: @color14;
+    
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    text-shadow: 0 0 8px @color14, 0 0 15px @color11, 0 0 20px @color12, 0 0 25px @color13;
+}
+
+window#volume-control box,
+window#microphone-control box {
+    padding: 5px;
+    
+}
+
+window#volume-control label,
+window#microphone-control label {
+    color: white;
+    margin-bottom: 5px;
+    text-shadow: 0 0 8px @color14, 0 0 15px @color11, 0 0 20px @color12, 0 0 25px @color13;
+}
+
+window#volume-control scale,
+window#microphone-control scale {
+    min-height: 150px;
+    min-width: 40px;
+    margin: 0 10px;
+}
+
+window#volume-control scale trough,
+window#microphone-control scale trough {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+
+window#volume-control scale highlight,
+window#microphone-control scale highlight {
+    background-color: @color11;
+    border-radius: 10px;
+}
+
+.network-speed {
+    font-size: 14px;
+    text-shadow: 0 0 5px @color14, 0 0 10px @color11, 0 0 15px @color12;
+}
+
+.custom-color {
+    color: inherit;
+    text-shadow: 0 0 5px @color14, 0 0 10px @color11, 0 0 15px @color12;
+}
+
+.blink {
+    animation: blink 1s infinite;
+    text-shadow: 0 0 5px @color14, 0 0 10px @color11, 0 0 15px @color12;
+}
+
+.keyboard-layout-box {
+    padding: 0 5px;
+    margin: 0 5px;
+    background-color: transparent;
+    border-radius: 4px;
+    text-shadow: 0 0 5px @color14, 0 0 10px @color11, 0 0 15px @color12;
+}
+
+.keyboard-layout {
+    font-size: 18px; /* Adjust this value to change the flag size */
+    text-shadow: 0 0 5px @color14, 0 0 10px @color11, 0 0 15px @color12;
+}
+
+.package-updates {
+    margin-left: 4px;
+    padding: 5px;
+}
+
+window#update-tooltip,
+window#volume-popup,
+window#microphone-popup,
+window#calendar-tooltip {
+    background-color: rgba(0, 0, 0, 0.2);
+    border: 1px solid @color11;
+    background-image: 
+        linear-gradient(135deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.05) 100%),
+        linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.1) 100%);
+    background-size: 200% 100%, 100% 100%;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 
+        0 0 0 1px rgba(0, 0, 0, 0.05),
+        0 0 3px 0 rgba(0, 0, 0, 0.1);
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
+}
+
+.update-tooltip-title {
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.update-tooltip-content {
+    color: white;
+    font-size: 12px;
+    font-family: monospace;
+}
+
+
+.right-widgets {
+    padding: 0 5px;
+}
+
+.right-widgets > * {
+    margin-right: 5px;
+}
+
+.keyboard-layout,
+.package-updates,
+.weather-widget {
+    padding: 0 5px;
+    padding-left:5px;
+    padding-right:5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.widget-spacer {
+    margin: 0 1px;
+    background-color: transparent;
+}
+
+window#volume-popup,
+window#microphone-popup {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    border: 1px solid @color11;
+    background-image: 
+        linear-gradient(135deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 50%),
+        linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0)),
+        linear-gradient(to bottom, rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.1));
+    background-size: 200% 100%, 200% 100%, 100% 100%;
+}
+
+window#volume-popup .update-tooltip-title,
+window#microphone-popup .update-tooltip-title {
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding: 0 5px;
+    box-shadow: 0 0 10px @color14, 0 0 20px @color11, 0 0 30px @color12, 0 0 40px @color13;
+}
+
+window#volume-popup .update-tooltip-content,
+window#microphone-popup .update-tooltip-content {
+    color: white;
+    font-size: 10px;
+    font-family: monospace;
+    text-shadow: 0 0 3px @color14, 0 0 7px @color11, 0 0 10px @color12, 0 0 15px @color13;
+
+}
+
+window#volume-popup scale,
+window#microphone-popup scale {
+    min-height: 120px;
+    min-width: 30px;
+    margin: 0 5px;
+}
+
+window#volume-popup scale trough,
+window#microphone-popup scale trough {
+    min-width: 3px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+    box-shadow: 0 0 10px @color14, 0 0 20px @color11, 0 0 30px @color12, 0 0 40px @color13;
+}
+
+window#volume-popup scale highlight,
+window#microphone-popup scale highlight {
+    min-width: 3px;
+    background-color: @color11;
+    border-radius: 4px;
+    
+}
+
+window#volume-popup scale slider,
+window#microphone-popup scale slider {
+    min-height: 8px;
+    min-width: 16px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 0 10px @color14, 0 0 20px @color11, 0 0 30px @color12, 0 0 40px @color13;
+}
+
+/* Add this to your existing styles */
+.volume-over-100 {
+    color: #FF0000;
+}
+
+.calendar-tooltip-title {
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.calendar-label {
+    color: white;
+    font-size: 12px;
+    font-family: monospace;
+}
+
+.calendar-label span {
+    font-size: 24px;  /* Make the current day twice as large */
+}
+
+/* Add these styles to your existing style.css file */
+
+.cpu-widget {
+    padding: 2px 5px;  /* Added top and bottom padding */
+}
+
+.cpu-box {
+    min-width: 100px;
+    padding: 5px 0;  /* Added top and bottom padding */
+}
+
+.cpu-core, .cpu-temp {
+    background-color: rgba(255, 255, 255, 0.1);
+    min-height: 2px;
+    border-radius: 1px;
+    
+}
+
+.cpu-core-usage, .cpu-temp-usage {
+    min-height: 3px;
+    border-radius: 1px;
+    text-shadow: 0 0 5px @color14, 0 0 10px @color11, 0 0 15px @color12;
+}
+
+.cpu-temp-label {
+    font-size: 9px;
+    margin-top: 1px;
+}
+
+.memory-box {
+    background: transparent;
+    
+    opacity: 0.9;
+    padding: 0 10px;
+    margin: 5px 0;
+    margin-top: 5px;
+    border: 0;
+    text-shadow: 0 0 3px @color14, 0 0 7px @color11, 0 0 10px @color12, 0 0 15px @color13;
+    
+}
+
+.memory-usage {
+    color: white;
+    background-color: rgba(255, 255, 255, 0.1);
+    min-width: 24px;
+    min-height: 24px;
+    font-size: 3px;
+    margin-right: 5px;
+    
+}
+
+.memory-label {
+    color: white;
+    font-size: 14px;
+    text-shadow: 0 0 3px @color14, 0 0 7px @color11, 0 0 10px @color12, 0 0 15px @color13;
+}
+
+.hdd-box {
+    background: transparent;
+    opacity: 0.9;
+    padding: 0 10px;
+    margin: 5px 0;
+    margin-top: 5px;
+    border: 0;
+    text-shadow: 0 0 3px @color14, 0 0 7px @color11, 0 0 10px @color12, 0 0 15px @color13;
+}
+
+.hdd-usage {
+    color: white;
+    background-color: rgba(255, 255, 255, 0.1);
+    min-width: 24px;
+    min-height: 24px;
+    font-size: 3px;
+    margin-right: 5px;
+}
+
+.hdd-label {
+    color: white;
+    font-size: 14px;
+    text-shadow: 0 0 3px @color14, 0 0 7px @color11, 0 0 10px @color12, 0 0 15px @color13;
+}
+
+/* Power Menu Styles */
+.power-menu {
+    background-color: transparent;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.power-menu-container {
+    padding: 20px;
+}
+
+.power-menu-box {
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 50%;
+    min-width: 400px;
+    min-height: 400px;
+    padding: 0;
+    box-shadow: 
+        0 0 0 1px alpha(@color0, 0.2),
+        0 0 6px 0 alpha(@color0, 0.2),
+        inset 0 0 0 1px alpha(@foreground, 0.02);
+    background-image: 
+        linear-gradient(135deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0) 50%),
+        linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0)),
+        linear-gradient(to bottom, rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.05));
+    background-size: 200% 100%, 200% 100%, 100% 100%;
+}
+
+.power-button {
+    background-color: rgba(255, 255, 255, 0.05);
+    transition: all 0.3s ease-in-out;
+    padding: 50px;
+    margin: 1px;
+    border-radius: 0;
+    min-width: 200px;
+    min-height: 200px;
+    background-image: 
+        linear-gradient(135deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0) 50%),
+        linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0)),
+        linear-gradient(to bottom, rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.05));
+    background-size: 200% 100%, 200% 100%, 100% 100%;
+}
+
+.power-button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 3px @color14, 0 0 6px @color11, 0 0 9px @color12;
+}
+
+.power-button-icon {
+    font-size: 64px;
+    margin-bottom: 10px;
+    text-shadow: 0 0 3px @color14, 0 0 6px @color11, 0 0 9px @color12;
+}
+
+.power-button-label {
+    font-size: 16px;
+    text-shadow: 0 0 2px @color14, 0 0 4px @color11, 0 0 6px @color12;
+}
+
+/* Keep the existing border-radius styles for each corner */
+.power-button-container.top-left .power-button {
+    border-radius: 100% 0 0 0;
+}
+
+.power-button-container.top-right .power-button {
+    border-radius: 0 100% 0 0;
+}
+
+.power-button-container.bottom-left .power-button {
+    border-radius: 0 0 0 100%;
+}
+
+.power-button-container.bottom-right .power-button {
+    border-radius: 0 0 100% 0;
+}
+
+.ds4-battery-widget {
+    background: transparent;
+    padding: 0 5px;
+    margin: 5px 0;
+}
+
+.ds4-battery-label {
+    min-width: 35px;
+    color: white;
+    font-size: 14px;
+    text-shadow: 0 0 3px @color14, 0 0 7px @color11, 0 0 10px @color12, 0 0 15px @color13;
+}
+
+.ds4-battery-label.battery-warning {
+    color: #FF0000;
+    animation: blink 1s infinite;
+}

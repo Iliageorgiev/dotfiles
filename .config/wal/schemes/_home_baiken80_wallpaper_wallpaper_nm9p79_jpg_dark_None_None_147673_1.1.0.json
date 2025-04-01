@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/baiken80/wallpaper/wallpaper/nm9p79.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#020202",
+        "foreground": "#e0e0e0",
+        "cursor": "#e0e0e0"
+    },
+    "colors": {
+        "color0": "#020202",
+        "color1": "#A28B72",
+        "color2": "#7C8283",
+        "color3": "#9F9A93",
+        "color4": "#AEB3B3",
+        "color5": "#C9B1A1",
+        "color6": "#C4C3C0",
+        "color7": "#e0e0e0",
+        "color8": "#9c9c9c",
+        "color9": "#A28B72",
+        "color10": "#7C8283",
+        "color11": "#9F9A93",
+        "color12": "#AEB3B3",
+        "color13": "#C9B1A1",
+        "color14": "#C4C3C0",
+        "color15": "#e0e0e0"
+    }
+}

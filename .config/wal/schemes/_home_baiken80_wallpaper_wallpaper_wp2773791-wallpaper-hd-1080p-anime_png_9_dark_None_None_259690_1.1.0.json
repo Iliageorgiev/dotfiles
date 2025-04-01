@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/baiken80/wallpaper/wallpaper/wp2773791-wallpaper-hd-1080p-anime.png",
+    "alpha": "100",
+    "special": {
+        "background": "#000000",
+        "foreground": "#bfbfbf",
+        "cursor": "#bfbfbf"
+    },
+    "colors": {
+        "color0": "#000000",
+        "color1": "#706969",
+        "color2": "#BA1615",
+        "color3": "#897274",
+        "color4": "#917F80",
+        "color5": "#A29C9C",
+        "color6": "#C4B9B9",
+        "color7": "#bfbfbf",
+        "color8": "#3f3f3f",
+        "color9": "#706969",
+        "color10": "#BA1615",
+        "color11": "#897274",
+        "color12": "#917F80",
+        "color13": "#A29C9C",
+        "color14": "#C4B9B9",
+        "color15": "#bfbfbf"
+    }
+}

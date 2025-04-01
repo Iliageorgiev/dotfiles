@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/baiken80/wallpaper/wallpaper/nee3zw.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#070705",
+        "foreground": "#e8ddcb",
+        "cursor": "#e8ddcb"
+    },
+    "colors": {
+        "color0": "#070705",
+        "color1": "#8E754D",
+        "color2": "#7D8072",
+        "color3": "#A9935E",
+        "color4": "#C7AD6F",
+        "color5": "#A9A399",
+        "color6": "#D2B593",
+        "color7": "#e8ddcb",
+        "color8": "#a29a8e",
+        "color9": "#8E754D",
+        "color10": "#7D8072",
+        "color11": "#A9935E",
+        "color12": "#C7AD6F",
+        "color13": "#A9A399",
+        "color14": "#D2B593",
+        "color15": "#e8ddcb"
+    }
+}

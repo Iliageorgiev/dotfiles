@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/baiken80/wallpaper/wallpaper/sTsDgG2.jpeg",
+    "alpha": "100",
+    "special": {
+        "background": "#060607",
+        "foreground": "#e3ddce",
+        "cursor": "#e3ddce"
+    },
+    "colors": {
+        "color0": "#060607",
+        "color1": "#90705C",
+        "color2": "#9C8E74",
+        "color3": "#D79474",
+        "color4": "#7E8081",
+        "color5": "#AEA48F",
+        "color6": "#CDB598",
+        "color7": "#e3ddce",
+        "color8": "#9e9a90",
+        "color9": "#90705C",
+        "color10": "#9C8E74",
+        "color11": "#D79474",
+        "color12": "#7E8081",
+        "color13": "#AEA48F",
+        "color14": "#CDB598",
+        "color15": "#e3ddce"
+    }
+}

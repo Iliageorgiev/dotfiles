@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/baiken80/wallpaper/wallpaper/kaq5d0lit2691.png",
+    "alpha": "100",
+    "special": {
+        "background": "#060507",
+        "foreground": "#c0c0c1",
+        "cursor": "#c0c0c1"
+    },
+    "colors": {
+        "color0": "#060507",
+        "color1": "#953C26",
+        "color2": "#985955",
+        "color3": "#D96D5E",
+        "color4": "#C9995E",
+        "color5": "#636591",
+        "color6": "#797DC3",
+        "color7": "#c0c0c1",
+        "color8": "#444345",
+        "color9": "#953C26",
+        "color10": "#985955",
+        "color11": "#D96D5E",
+        "color12": "#C9995E",
+        "color13": "#636591",
+        "color14": "#797DC3",
+        "color15": "#c0c0c1"
+    }
+}

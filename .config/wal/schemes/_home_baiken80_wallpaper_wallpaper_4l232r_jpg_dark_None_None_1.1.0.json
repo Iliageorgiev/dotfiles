@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/baiken80/wallpaper/wallpaper/4l232r.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0A0207",
+        "foreground": "#ef82e2",
+        "cursor": "#ef82e2"
+    },
+    "colors": {
+        "color0": "#0A0207",
+        "color1": "#634C5B",
+        "color2": "#990B66",
+        "color3": "#AE4365",
+        "color4": "#7C38B5",
+        "color5": "#DE0DA6",
+        "color6": "#C535A8",
+        "color7": "#ef82e2",
+        "color8": "#a75b9e",
+        "color9": "#634C5B",
+        "color10": "#990B66",
+        "color11": "#AE4365",
+        "color12": "#7C38B5",
+        "color13": "#DE0DA6",
+        "color14": "#C535A8",
+        "color15": "#ef82e2"
+    }
+}

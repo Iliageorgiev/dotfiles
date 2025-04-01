@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/baiken80/wallpaper/wallpaper/wallpaperflare.com_wallpaper.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#020000",
+        "foreground": "#bfbfbf",
+        "cursor": "#bfbfbf"
+    },
+    "colors": {
+        "color0": "#020000",
+        "color1": "#5F624C",
+        "color2": "#933513",
+        "color3": "#9D5627",
+        "color4": "#E1641F",
+        "color5": "#C14E22",
+        "color6": "#F99A2E",
+        "color7": "#bfbfbf",
+        "color8": "#413f3f",
+        "color9": "#5F624C",
+        "color10": "#933513",
+        "color11": "#9D5627",
+        "color12": "#E1641F",
+        "color13": "#C14E22",
+        "color14": "#F99A2E",
+        "color15": "#bfbfbf"
+    }
+}

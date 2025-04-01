@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/baiken80/wallpaper/wallpaper/vgrjy8.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0f0e0d",
+        "foreground": "#d8e4ed",
+        "cursor": "#d8e4ed"
+    },
+    "colors": {
+        "color0": "#0f0e0d",
+        "color1": "#4B68B2",
+        "color2": "#C42CCC",
+        "color3": "#529BBA",
+        "color4": "#A7ADB4",
+        "color5": "#ABCADC",
+        "color6": "#B4D3E9",
+        "color7": "#d8e4ed",
+        "color8": "#979fa5",
+        "color9": "#4B68B2",
+        "color10": "#C42CCC",
+        "color11": "#529BBA",
+        "color12": "#A7ADB4",
+        "color13": "#ABCADC",
+        "color14": "#B4D3E9",
+        "color15": "#d8e4ed"
+    }
+}

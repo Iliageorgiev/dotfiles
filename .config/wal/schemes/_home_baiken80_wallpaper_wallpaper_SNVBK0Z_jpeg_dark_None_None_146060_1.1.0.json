@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/baiken80/wallpaper/wallpaper/SNVBK0Z.jpeg",
+    "alpha": "100",
+    "special": {
+        "background": "#0e0d10",
+        "foreground": "#f0e6df",
+        "cursor": "#f0e6df"
+    },
+    "colors": {
+        "color0": "#0e0d10",
+        "color1": "#B68D73",
+        "color2": "#F2A25B",
+        "color3": "#7C7B82",
+        "color4": "#AB9D95",
+        "color5": "#DCAA99",
+        "color6": "#E7CBB5",
+        "color7": "#f0e6df",
+        "color8": "#a8a19c",
+        "color9": "#B68D73",
+        "color10": "#F2A25B",
+        "color11": "#7C7B82",
+        "color12": "#AB9D95",
+        "color13": "#DCAA99",
+        "color14": "#E7CBB5",
+        "color15": "#f0e6df"
+    }
+}

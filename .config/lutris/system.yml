@@ -1,0 +1,5 @@
+system:
+  env: {}
+  locale: ''
+  prefix_command: gamemoderun
+  reset_desktop: true

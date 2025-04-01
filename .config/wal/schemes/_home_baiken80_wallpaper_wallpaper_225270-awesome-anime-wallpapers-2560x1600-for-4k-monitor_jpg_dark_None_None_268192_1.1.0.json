@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/baiken80/wallpaper/wallpaper/225270-awesome-anime-wallpapers-2560x1600-for-4k-monitor.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0B050B",
+        "foreground": "#e1e2eb",
+        "cursor": "#e1e2eb"
+    },
+    "colors": {
+        "color0": "#0B050B",
+        "color1": "#4653A7",
+        "color2": "#8B839F",
+        "color3": "#9390A8",
+        "color4": "#D3BBB6",
+        "color5": "#A4ADD7",
+        "color6": "#D7D8E4",
+        "color7": "#e1e2eb",
+        "color8": "#9d9ea4",
+        "color9": "#4653A7",
+        "color10": "#8B839F",
+        "color11": "#9390A8",
+        "color12": "#D3BBB6",
+        "color13": "#A4ADD7",
+        "color14": "#D7D8E4",
+        "color15": "#e1e2eb"
+    }
+}

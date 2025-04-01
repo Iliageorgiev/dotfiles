@@ -1,0 +1,24 @@
+wallpaper: "/home/baiken80/wallpaper/wallpaper/103.jpg"
+
+special:
+    background: "#0E1D20"
+    foreground: "#dcdacf"
+    cursor: "#dcdacf"
+
+colors:
+    color0: "#0E1D20"
+    color1: "#8E745A"
+    color2: "#668670"
+    color3: "#9F956A"
+    color4: "#2A7D82"
+    color5: "#59958E"
+    color6: "#9FAA9A"
+    color7: "#dcdacf"
+    color8: "#9a9890"
+    color9: "#8E745A"
+    color10: "#668670"
+    color11: "#9F956A"
+    color12: "#2A7D82"
+    color13: "#59958E"
+    color14: "#9FAA9A"
+    color15: "#dcdacf"

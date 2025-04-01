@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/baiken80/wallpaper/wallpaper/nkop60.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#010C0F",
+        "foreground": "#7be3e9",
+        "cursor": "#7be3e9"
+    },
+    "colors": {
+        "color0": "#010C0F",
+        "color1": "#028799",
+        "color2": "#0193AB",
+        "color3": "#01A8B9",
+        "color4": "#04C6B5",
+        "color5": "#02B6C7",
+        "color6": "#05CAD7",
+        "color7": "#7be3e9",
+        "color8": "#569ea3",
+        "color9": "#028799",
+        "color10": "#0193AB",
+        "color11": "#01A8B9",
+        "color12": "#04C6B5",
+        "color13": "#02B6C7",
+        "color14": "#05CAD7",
+        "color15": "#7be3e9"
+    }
+}

@@ -1,0 +1,113 @@
+game:
+  arch: win64
+  exe: drive_c/Program Files (x86)/Battle.net/Battle.net Launcher.exe
+  prefix: /mnt/f02b6907-cd4d-4cfe-98fc-1f16f4a889fa/@home/belial/Games
+game_slug: battlenet
+name: Blizzard Battle.net
+script:
+  files:
+  - setup:
+      filename: Battle.net-Setup.exe
+      url: https://www.battle.net/download/getInstallerForGame?os=win&version=LIVE&gameProgram=BATTLENET_APP
+  game:
+    arch: win64
+    exe: drive_c/Program Files (x86)/Battle.net/Battle.net Launcher.exe
+    prefix: $GAMEDIR
+  installer:
+  - task:
+      arch: win64
+      prefix: /mnt/f02b6907-cd4d-4cfe-98fc-1f16f4a889fa/@home/belial/Games
+      wine_path: /home/baiken80/.local/share/lutris/runners/wine/wine-8.15-amd64/bin/wine
+  - task:
+      app: arial
+      arch: win64
+      prefix: /mnt/f02b6907-cd4d-4cfe-98fc-1f16f4a889fa/@home/belial/Games
+      wine_path: /home/baiken80/.local/share/lutris/runners/wine/wine-8.15-amd64/bin/wine
+  - task:
+      app: tahoma
+      arch: win64
+      prefix: /mnt/f02b6907-cd4d-4cfe-98fc-1f16f4a889fa/@home/belial/Games
+      wine_path: /home/baiken80/.local/share/lutris/runners/wine/wine-8.15-amd64/bin/wine
+  - task:
+      arch: win64
+      key: Version
+      path: HKEY_CURRENT_USER\Software\Wine
+      prefix: /mnt/f02b6907-cd4d-4cfe-98fc-1f16f4a889fa/@home/belial/Games
+      value: win10
+      wine_path: /home/baiken80/.local/share/lutris/runners/wine/wine-8.15-amd64/bin/wine
+  - task:
+      arch: win64
+      key: backend
+      path: HKEY_CURRENT_USER\Software\Wine\DXVA2
+      prefix: /mnt/f02b6907-cd4d-4cfe-98fc-1f16f4a889fa/@home/belial/Games
+      value: va
+      wine_path: /home/baiken80/.local/share/lutris/runners/wine/wine-8.15-amd64/bin/wine
+  - task:
+      arch: win64
+      key: version
+      path: HKEY_CURRENT_USER\Software\Wine\AppDefaults\BlizzardBrowser.exe
+      prefix: /mnt/f02b6907-cd4d-4cfe-98fc-1f16f4a889fa/@home/belial/Games
+      type: REG_SZ
+      value: win7
+      wine_path: /home/baiken80/.local/share/lutris/runners/wine/wine-8.15-amd64/bin/wine
+  - write_json:
+      data:
+        Client:
+          GameLaunchWindowBehavior: '2'
+          GameSearch:
+            BackgroundSearch: 'true'
+          HardwareAcceleration: 'false'
+          Install:
+            DownloadLimitNextPatchInBps: '0'
+          Sound:
+            Enabled: 'false'
+          Streaming:
+            StreamingEnabled: 'false'
+        Games:
+          s2:
+            AdditionalLaunchArguments: -Displaymode 1
+      file: $GAMEDIR/drive_c/users/$USER/AppData/Roaming/Battle.net/Battle.net.config
+  - merge:
+      dst: $GAMEDIR/drive_c/
+      src: setup
+  - execute:
+      command: WINEESYNC=1 WINEPREFIX=$GAMEDIR $WINEBIN $GAMEDIR/drive_c/Battle.net-Setup.exe
+  - task:
+      arch: win64
+      prefix: /mnt/f02b6907-cd4d-4cfe-98fc-1f16f4a889fa/@home/belial/Games
+      wine_path: /home/baiken80/.local/share/lutris/runners/wine/wine-8.15-amd64/bin/wine
+  system:
+    env:
+      DXVK_HUD: compiler
+      DXVK_STATE_CACHE_PATH: $GAMEDIR
+      STAGING_SHARED_MEMORY: 1
+      __GL_SHADER_DISK_CACHE: 1
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR
+      __GL_SHADER_DISK_CACHE_SKIP_CLEANUP: 1
+      exclude_processes: Agent.exe "Battle.net Helper.exe"
+  wine:
+    battleye: false
+    eac: false
+    fsr: false
+    override:
+      locationapi: d
+slug: blizzard-battlenet-standard
+system:
+  env:
+    DXVK_HUD: compiler
+    DXVK_STATE_CACHE_PATH: /mnt/f02b6907-cd4d-4cfe-98fc-1f16f4a889fa/@home/belial/Games
+    STAGING_SHARED_MEMORY: '1'
+    __GL_SHADER_DISK_CACHE: '1'
+    __GL_SHADER_DISK_CACHE_PATH: /mnt/f02b6907-cd4d-4cfe-98fc-1f16f4a889fa/@home/belial/Games
+    __GL_SHADER_DISK_CACHE_SKIP_CLEANUP: '1'
+    exclude_processes: Agent.exe "Battle.net Helper.exe"
+  locale: ''
+version: Standard
+wine:
+  battleye: false
+  eac: false
+  fsr: false
+  override:
+    locationapi: d
+  version: wine-ge-8-26-x86_64
+year: 1996

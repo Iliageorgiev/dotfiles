@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/baiken80/wallpaper/wallpaper/mln1.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#1b1419",
+        "foreground": "#ece8e5",
+        "cursor": "#ece8e5"
+    },
+    "colors": {
+        "color0": "#1b1419",
+        "color1": "#987685",
+        "color2": "#A9999A",
+        "color3": "#C7B7B5",
+        "color4": "#CDC0BF",
+        "color5": "#D7CCCA",
+        "color6": "#E4DBD7",
+        "color7": "#ece8e5",
+        "color8": "#a5a2a0",
+        "color9": "#987685",
+        "color10": "#A9999A",
+        "color11": "#C7B7B5",
+        "color12": "#CDC0BF",
+        "color13": "#D7CCCA",
+        "color14": "#E4DBD7",
+        "color15": "#ece8e5"
+    }
+}
