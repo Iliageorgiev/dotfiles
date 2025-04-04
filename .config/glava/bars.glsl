@@ -1,6 +1,6 @@
 /* Note: to only render a single channel, see `setmirror` in `rc.glsl`. */
-#define C1 (@fg:#475769)
-#define C2 (@bg:#6C93BB)
+#define C1 (@fg:#58603E)
+#define C2 (@bg:#749A68)
 /* Center line thickness (pixels) */
 #define C_LINE 1
 /* Width (in pixels) of each bar */
