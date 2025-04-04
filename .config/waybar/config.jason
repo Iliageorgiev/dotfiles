@@ -142,7 +142,7 @@
 
     "hyprland/language": {
         "format": "{}",
-        
+        "on-click": "hyprctl switchxkblayout current next",
         "format-en": "<span color='#BA3552'>U</span><span color='#2B16FF'>S</span>",
         "format-bg": "<span color='#FFFFFF'>Б</span><span color='#289E7A'>Г</span>",
         

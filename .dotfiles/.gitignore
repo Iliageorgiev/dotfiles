@@ -1,1 +1,8 @@
 .config/FreeTube/
+.config/ags/colors-waybar.css
+.config/glava/bars.glsl
+.config/mako/config
+.config/scripts/output_frame.jpeg
+.config/waybar/colors-waybar.css
+.config/wlogout/colors-waybar.css
+.config/wofi/colors-waybar.css

@@ -12,6 +12,7 @@ application/x-extension-xht=userapp-Floorp-RYJ232.desktop
 image/jpeg=org.gnome.eog.desktop
 inode/directory=thunar.desktop
 x-scheme-handler/tonsite=org.telegram.desktop.desktop
+application/vnd.microsoft.portable-executable=wine.desktop
 
 [Added Associations]
 x-scheme-handler/http=userapp-Floorp-RYJ232.desktop;
@@ -27,3 +28,4 @@ application/x-extension-xht=userapp-Floorp-RYJ232.desktop;
 application/x-compressed-tar=peazip.desktop;
 image/jpeg=mupdf.desktop;feh.desktop;org.gnome.eog.desktop;
 x-scheme-handler/tonsite=org.telegram.desktop.desktop;
+application/vnd.microsoft.portable-executable=wine.desktop;
