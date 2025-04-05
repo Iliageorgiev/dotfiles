@@ -29,3 +29,4 @@ application/x-compressed-tar=peazip.desktop;
 image/jpeg=mupdf.desktop;feh.desktop;org.gnome.eog.desktop;
 x-scheme-handler/tonsite=org.telegram.desktop.desktop;
 application/vnd.microsoft.portable-executable=wine.desktop;
+image/webp=org.gnome.eog.desktop;

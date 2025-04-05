@@ -36,7 +36,7 @@ get_color() {
     if (( speed == 0 )); then
         echo "#FFFFFF"  # White for zero speed
     elif (( speed < SPEED_THRESHOLD_LOW )); then
-        echo "#0000FF"  # Blue for low speed
+        echo "#FFFFFF"  # White for low speed
     elif (( speed < SPEED_THRESHOLD_MEDIUM )); then
         echo "#FFFF00"  # Yellow for medium speed
     else
